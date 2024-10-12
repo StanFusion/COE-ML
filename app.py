@@ -180,7 +180,7 @@ elif st.session_state.page == 'Extras':
     st.write("The data can be found under Motor Vehicles in the above link")
     st.dataframe(dfBefore)  
 
-    dfinflate = pd.read_csv("inflate.csv")
+    dfinflate = pd.read_csv("Inflate.csv")
     st.write("The inflation value used was collected from the MAS CPI which was taken from https://www.mas.gov.sg/statistics/mas-core-inflation-and-notes-to-selected-cpi-categories")
     st.write("Below is the inflatetion data that was used")
     st.dataframe(dfinflate)
