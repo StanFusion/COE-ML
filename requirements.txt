@@ -1,9 +1,10 @@
-streamlit==1.5.1
+streamlit
 joblib
 pandas
 matplotlib
 numpy
 seaborn
-scikit-learn
+scikit-learn==1.5.1
 xgboost
+
 
