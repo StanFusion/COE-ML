@@ -1,4 +1,4 @@
-streamlit
+streamlit==1.5.1
 joblib
 pandas
 matplotlib
@@ -6,3 +6,4 @@ numpy
 seaborn
 scikit-learn
 xgboost
+
